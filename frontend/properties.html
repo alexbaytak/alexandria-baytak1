@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+
+جميع العقارات | Alexandria Baytak
+
+</title>
+
+
+<link rel="stylesheet"
+href="./css/properties.css">
+
+
+</head>
+
+<body>
+
+
+<!--=================================
+                NAVBAR
+==================================-->
+
+
+<nav class="navbar">
+
+
+<a href="index.html">
+
+الرئيسية
+
+</a>
+
+
+<a href="properties.html">
+
+العقارات
+
+</a>
+
+
+<a href="admin-login.html">
+
+الإدارة
+
+</a>
+
+
+</nav>
+
+
+
+<!--=================================
+              SEARCH
+==================================-->
+
+
+<section class="search-section">
+
+
+<h1>
+
+ابحث عن عقارك بسهولة
+
+</h1>
+
+
+
+<select id="purpose">
+
+
+<option value="">
+
+للبيع أو للإيجار
+
+</option>
+
+
+<option value="sale">
+
+للبيع
+
+</option>
+
+
+<option value="rent">
+
+للإيجار
+
+</option>
+
+
+</select>
+
+
+
+
+<select id="propertyType">
+
+
+<option value="">
+
+نوع العقار
+
+</option>
+
+
+<option value="apartment">
+
+شقة
+
+</option>
+
+
+<option value="villa">
+
+فيلا
+
+</option>
+
+
+<option value="chalet">
+
+شاليه
+
+</option>
+
+
+<option value="shop">
+
+محل
+
+</option>
+
+
+<option value="office">
+
+مكتب
+
+</option>
+
+
+<option value="land">
+
+أرض
+
+</option>
+
+
+<option value="warehouse">
+
+مخزن
+
+</option>
+
+
+<option value="building">
+
+مبنى
+
+</option>
+
+
+</select>
+
+
+
+
+
+<input
+type="number"
+
+id="minPrice"
+
+placeholder="أقل سعر">
+
+
+
+<input
+type="number"
+
+id="maxPrice"
+
+placeholder="أعلى سعر">
+
+
+
+<input
+type="number"
+
+id="minSpace"
+
+placeholder="أقل مساحة">
+
+
+
+<input
+type="number"
+
+id="maxSpace"
+
+placeholder="أعلى مساحة">
+
+
+
+
+
+<button id="searchButton">
+
+ابحث الآن
+
+</button>
+
+
+</section>
+
+
+
+
+<!--=================================
+            ALL PROPERTIES
+==================================-->
+
+
+<section class="properties-section">
+
+
+<h2>
+
+جميع العقارات
+
+</h2>
+
+
+
+<div id="propertiesContainer">
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<!--=================================
+              PAGINATION
+==================================-->
+
+
+<section class="pagination">
+
+
+<button id="previousPage">
+
+السابق
+
+</button>
+
+
+
+<button id="nextPage">
+
+التالى
+
+</button>
+
+
+</section>
+
+
+
+
+<!--=================================
+                FOOTER
+==================================-->
+
+
+<footer>
+
+
+جميع الحقوق محفوظة © Alexandria Baytak
+
+
+</footer>
+
+
+
+
+<script src="./js/config.js">
+
+</script>
+
+
+
+<script src="./js/properties.js">
+
+</script>
+
+
+
+</body>
+</html>

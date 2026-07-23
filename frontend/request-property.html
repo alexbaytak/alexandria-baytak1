@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width,initial-scale=1.0">
+
+<title>
+
+إضافة عقار | Alexandria Baytak
+
+</title>
+
+
+<link rel="stylesheet"
+href="./css/property.css">
+
+</head>
+
+
+<body>
+
+
+<nav class="navbar">
+
+<a href="dashboard.html">
+
+لوحة التحكم
+
+</a>
+
+
+<a href="properties.html">
+
+العقارات
+
+</a>
+
+
+<a href="index.html">
+
+الرئيسية
+
+</a>
+
+
+</nav>
+
+
+
+<section class="title-section">
+
+
+<h1>
+
+إضافة عقار جديد
+
+</h1>
+
+
+<p>
+
+قم بإدخال جميع بيانات العقار.
+
+</p>
+
+
+</section>
+
+
+
+
+<section class="form-section">
+
+
+<form id="propertyForm">
+
+
+<input
+type="text"
+id="title"
+placeholder="عنوان العقار"
+required>
+
+
+
+<textarea
+id="description"
+placeholder="وصف العقار"
+required>
+
+</textarea>
+
+
+
+
+<input
+type="text"
+id="city"
+placeholder="المدينة"
+required>
+
+
+
+<input
+type="text"
+id="area"
+placeholder="المنطقة"
+required>
+
+
+
+
+<input
+type="number"
+id="price"
+placeholder="السعر"
+required>
+
+
+
+<input
+type="number"
+id="space"
+placeholder="المساحة"
+required>
+
+
+
+<input
+type="number"
+id="bedrooms"
+placeholder="عدد الغرف">
+
+
+
+<input
+type="number"
+id="bathrooms"
+placeholder="عدد الحمامات">
+
+
+
+<select id="purpose">
+
+<option value="sale">
+
+للبيع
+
+</option>
+
+
+<option value="rent">
+
+للإيجار
+
+</option>
+
+</select>
+
+
+
+
+<select id="propertyType">
+
+
+<option value="apartment">
+
+شقة
+
+</option>
+
+
+<option value="villa">
+
+فيلا
+
+</option>
+
+
+<option value="chalet">
+
+شاليه
+
+</option>
+
+
+<option value="shop">
+
+محل
+
+</option>
+
+
+<option value="office">
+
+مكتب
+
+</option>
+
+
+<option value="land">
+
+أرض
+
+</option>
+
+
+<option value="warehouse">
+
+مخزن
+
+</option>
+
+
+<option value="building">
+
+مبنى
+
+</option>
+
+
+</select>
+
+
+<!-- الصور -->
+
+<input
+type="file"
+id="images"
+multiple
+accept="image/*">
+
+<!-- الفيديو -->
+
+<input
+type="file"
+id="videos"
+multiple
+accept="video/*">
+
+<!-- الدور -->
+
+<input
+type="number"
+id="floor"
+placeholder="الدور">
+
+<!-- عدد البلكونات -->
+
+<input
+type="number"
+id="balconies"
+placeholder="عدد البلكونات">
+
+<!-- يوجد جراج -->
+
+<label>
+<input type="checkbox" id="parking">
+يوجد جراج
+</label>
+
+<!-- يوجد مصعد -->
+
+<label>
+<input type="checkbox" id="elevator">
+يوجد مصعد
+</label>
+
+<!-- يوجد تكييف -->
+
+<label>
+<input type="checkbox" id="airConditioning">
+يوجد تكييف
+</label>
+
+<!-- يوجد إنترنت -->
+
+<label>
+<input type="checkbox" id="internet">
+يوجد إنترنت
+</label>
+
+<!-- يوجد غاز -->
+
+<label>
+<input type="checkbox" id="gas">
+يوجد غاز
+</label>
+
+<!-- يوجد أمن -->
+
+<label>
+<input type="checkbox" id="security">
+يوجد أمن
+</label>
+
+<!-- يوجد مطبخ -->
+
+<label>
+<input type="checkbox" id="kitchen">
+يوجد مطبخ
+</label>
+
+<!-- مفروش -->
+
+<label>
+<input type="checkbox" id="furnished">
+مفروش
+</label>
+
+<!-- يوجد تقسيط -->
+
+<label>
+<input type="checkbox" id="installment">
+يوجد تقسيط
+</label>
+
+<!-- السعر قابل للتفاوض -->
+
+<label>
+<input type="checkbox" id="negotiable">
+السعر قابل للتفاوض
+</label>
+
+<!-- زر إضافة العقار -->
+
+<button type="submit">
+
+إضافة العقار
+
+</button>
+
+
+</form>
+
+
+</section>
+
+
+
+
+<footer>
+
+جميع الحقوق محفوظة © Alexandria Baytak
+
+</footer>
+
+
+
+<script src="./js/config.js">
+
+</script>
+
+
+<script src="./js/addProperty.js">
+
+</script>
+
+
+</body>
+
+</html>
+
+
+

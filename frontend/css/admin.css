@@ -1,0 +1,94 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Cairo,sans-serif;
+}
+
+body{
+background:#f4f6f9;
+min-height:100vh;
+display:flex;
+flex-direction:column;
+}
+
+.navbar{
+background:#001f3f;
+padding:20px;
+display:flex;
+justify-content:center;
+gap:40px;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+font-size:20px;
+font-weight:bold;
+transition:.3s;
+}
+
+.navbar a:hover{
+color:#FFD700;
+}
+
+.login-section{
+width:450px;
+background:white;
+padding:40px;
+margin:80px auto;
+border-radius:20px;
+box-shadow:0 0 20px rgba(0,0,0,.15);
+text-align:center;
+}
+
+.login-section h1{
+color:#001f3f;
+margin-bottom:30px;
+font-size:35px;
+}
+
+#loginForm{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+#loginForm input{
+padding:15px;
+border:none;
+border-radius:10px;
+background:#f1f1f1;
+font-size:18px;
+outline:none;
+}
+
+#loginForm input:focus{
+border:2px solid #FFD700;
+}
+
+#loginForm button{
+padding:15px;
+border:none;
+border-radius:10px;
+background:#FFD700;
+color:#001f3f;
+font-size:20px;
+font-weight:bold;
+cursor:pointer;
+transition:.3s;
+}
+
+#loginForm button:hover{
+background:#001f3f;
+color:white;
+}
+
+footer{
+margin-top:auto;
+background:#001f3f;
+color:white;
+text-align:center;
+padding:20px;
+font-size:18px;
+}
